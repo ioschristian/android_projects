@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:background="@android:color/holo_blue_dark">
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp">
+        <RadioButton
+            android:id="@+id/radioButtonGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Green"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:checked="true"/>
+        <RadioButton
+            android:id="@+id/radioButtonYellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yellow"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"/>
+        <RadioButton
+            android:id="@+id/radioButtonRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonChanged"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Change Background"
+        android:textAllCaps="false"
+        android:backgroundTint="#E91E63"
+        android:layout_marginTop="50dp"/>
+</LinearLayout>
