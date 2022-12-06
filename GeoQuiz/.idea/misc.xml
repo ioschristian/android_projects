@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/arrow_right.xml" value="0.1405" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.346875" />
       </map>
     </option>
